@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nails By Me - Galerie</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f5f2;
+            color: #4a3f35;
+        }
+
+        header {
+            background: linear-gradient(45deg, #b57edc, #f3c6d8, #d4af37);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #fff4f8;
+            padding: 15px;
+            border-bottom: 2px solid #e5d3d3;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4a3f35;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #b57edc;
+        }
+
+        .gallery-title {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 32px;
+            color: #b57edc;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Nails By Me</header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="galerie.html"><b>Galerie</b></a>
+        <a href="commande.html">Commander</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1 class="gallery-title">Mes créations ✨</h1>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.png?text=Press+On+1">
+            <p>Design 1</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.png?text=Press+On+2">
+            <p>Design 2</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.png?text=Press+On+3">
+            <p>Design 3</p>
+        </div>
+    </div>
+
+</body>
+</html>
